@@ -89,9 +89,9 @@ namespace BeautyForestAgent
 
         private void 이프로그램은ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.statusMessage.Text = "이 프로그램은..(Modaless)창을 띄웁니다.";
+            this.statusMessage.Text = "프로필 (Modaless)창을 띄웁니다.";
             FormAbout m = new FormAbout();
-            m.Title = "이 프로그램은..(Modaless)";
+            m.Title = "프로필 (Modaless)";
             m.Show();
         }
     }
